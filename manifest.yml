@@ -1,0 +1,5 @@
+applications:
+  - name: codeengine
+    memory: 128M
+    buildpack: nodejs_buildpack
+    command: node server.js
